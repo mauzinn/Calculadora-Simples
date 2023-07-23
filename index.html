@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    <section class="box">
+        <div class="box2">
+            <div id="screen">
+                <p id="res"></p>
+            </div>
+            <button onclick="calcular('apagar')" id="apagar">X</button>
+            <div class="botoes">
+                <button onclick="calcular(7)">7</button>
+                <button onclick="calcular(8)">8</button>
+                <button onclick="calcular(9)">9</button><br>
+                <button onclick="calcular(4)">4</button>
+                <button onclick="calcular(5)">5</button>
+                <button onclick="calcular(6)">6</button><br>
+                <button onclick="calcular(1)">1</button>
+                <button onclick="calcular(2)">2</button>
+                <button onclick="calcular(3)">3</button><br>
+                <button onclick="calcular(0)">0</button>
+                <button onclick="calcular('+')" id="mais">+</button>
+                <button onclick="calcular('=')" id="igual">=</button>
+            </div>
+        </div>
+        <footer>
+            <a href="https://github.com/mauzinn"><img id="github" width="30px" src="img/github.svg" alt="GitHub"></a>
+        </footer>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

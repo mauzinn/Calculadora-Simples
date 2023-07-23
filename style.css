@@ -1,0 +1,85 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: rgb(55, 62, 77);
+}
+
+.box2{
+    background-color: rgb(29, 29, 29);
+    position: absolute;
+    padding: 40px 20px;
+    border-radius: 16px;
+    border: 2px solid rgb(110, 110, 110);
+    box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.726);
+    width: 190px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#screen{
+    background-color: rgb(74, 175, 128);
+    padding: 0.1px 15px;
+    width: 150px;
+    height: 55px;
+    margin-bottom: 5px;
+    text-align: end;
+    border-radius: 5px;
+    box-shadow: 3px 4px 3px black, 3.5px 5px 3px rgb(66, 66, 66);
+}
+
+button{
+    padding: 5px 15px;
+    background-color: rgb(15, 15, 15);
+    border: 1px solid white;
+    margin: 5px;
+    color: white;
+    font-size: x-large;
+    border-radius: 10px;
+    font-weight: 600;
+    box-shadow: 3px 4px 3px black, 3.5px 2px 3px grey;
+    cursor: pointer;
+}
+
+button:active{
+    zoom: 95%;
+    color: rgb(172, 172, 172);
+    border: 1px solid grey;
+}
+
+#mais{
+    background-color: rgb(52, 121, 161);
+}
+
+#igual{
+    background-color: rgb(47, 104, 138);
+}
+
+#github:hover{
+    zoom: 1.1;
+    border: 2px solid grey;
+    border-radius: 10px;
+}
+
+#github{
+    position: absolute;
+    top: 74%;
+    left: 50%;
+    transform: translate(-50%, -36%);
+}
+
+#apagar{
+    font-size: medium;
+    background-color: rgb(187, 44, 44);
+}
+
+@media (max-height: 900px) {
+    #github{
+        position: absolute;
+        top: 88%;
+        left: 50%;
+        transform: translate(-50%, -36%);
+    }
+}
